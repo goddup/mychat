@@ -72,3 +72,8 @@ docker run -v /ddup/chat/application.properties:/myconfig/application.properties
 ```
 http://localhost/api/hello?msg=hello
 ```
+
+## 问题支持
+可以访问如下飞书文档，有相关联系方式
+
+https://tva7nc4q9jf.feishu.cn/wiki/AmDXwlKtzii4FHkclVhcBxWunwc
