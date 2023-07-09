@@ -25,10 +25,7 @@ COPY ./src/main/resources/application.properties /myconfig/
 #ENTRYPOINT ["java","-jar","/app/target/chat-0.0.2-SNAPSHOT.jar"]
 ENTRYPOINT ["java","-jar","/app/target/chat-0.0.2-SNAPSHOT.jar","--spring.config.location=file:/myconfig/application.properties "]
 
-#nohup java -jar chat-0.0.2-SNAPSHOT.jar --spring.config.location=file:/root/wx_gzh/application.properties &
-
-# 设置默认命令为mvn spring-boot:run
-#CMD ["mvn", "spring-boot:run"]
+ 
 
 
 
