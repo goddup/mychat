@@ -211,7 +211,7 @@ public class MediaUtil {
         //上传图片，得到media_id
         //上传图片，得到media_id
         String message = "https://oaidalleapiprodscus.blob.core.windows.net/private/org-xREleKtIqzlbmN33tTg6lXn6/user-QiZtum4HQ5zBUnpef7YufboO/img-LS23gBO890DoDO7NhDIHoMEt.png?st=2023-04-04T10%3A46%3A23Z&se=2023-04-04T12%3A46%3A23Z&sp=r&sv=2021-08-06&sr=b&rscd=inline&rsct=image/png&skoid=6aaadede-4fb3-4698-a8f6-684d7786b067&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2023-04-04T08%3A31%3A14Z&ske=2023-04-05T08%3A31%3A14Z&sks=b&skv=2021-08-06&sig=jWoyMZz%2Bv9xwroceEmi8pjkJngJNBiG0fv/LSOB4NEU%3D";
-        String mediaId = MediaUtil.getMediaID("wx5f6a3ee291ca34db", "ef42a8de16c128f2a2b5df09d475a775", message);
+        String mediaId = MediaUtil.getMediaID("wxxx", "ef42axx5", message);
         System.out.println("mediaId=" + mediaId);
     }
 }
